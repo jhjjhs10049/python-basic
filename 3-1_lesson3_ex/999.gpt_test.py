@@ -71,11 +71,31 @@
 
 # 400으로 나누어떨어지는 해
 
-year = int(input("연도를 입력해주세요 : "))
+# year = int(input("연도를 입력해주세요 : "))
 
-if year%4 == 0 and not year%100 == 0 or year%400 == 0:
-    print(f"윤년입니다.")
-else:
-    print(f"윤년이 아닙니다.")
+# if year%4 == 0 and not year%100 == 0 or year%400 == 0:
+#     print(f"윤년입니다.")
+# else:
+#     print(f"윤년이 아닙니다.")
+
+#==============================================================================
+
+# 원가: 50000
+# 할인율: 20%
+# 할인 후 금액에 부가세 10% 추가
+
+# basic_price = 50000
+# discount_per = 20
+# vat_per = 10
+
+# after_discount = basic_price - (basic_price*discount_per/100)
+# after_vat = after_discount + (after_discount*vat_per/100)
+
+# print(f"원가 : {basic_price}")
+# print(f"할인율 : {discount_per}")
+# print(f"할인 적용 금액 : {after_discount}")
+# print(f"부가세 : {vat_per}")
+# print(f"최종 금액 : {after_vat}")
+
 
 
